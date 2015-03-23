@@ -1,13 +1,12 @@
 {
     "name": "happybonobo_visited_links",
-    "title": "Happy Bonobo: Disable Visited Links",
+    "title": "Disable Visited Links",
     "id": "jid1-5Fs7iTLscUaZBg-dvl",
     "description": "Disable styles targeting :visited links.",
     "author": "Chris Antaki",
     "license": "MPL 2.0",
-    "version": "1.0.3",
-    "icon": "data/monkey-vs-48.png",
-    "icon64": "data/monkey-vs-64.png",
+    "version": "1.0.4",
+    "icon": "data/safe.png",
     "permissions": {
         "private-browsing": true
     }
