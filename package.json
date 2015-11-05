@@ -1,15 +1,16 @@
 {
     "name": "happybonobo_visited_links",
     "title": "Disable Visited Links",
-    "id": "jid1-5Fs7iTLscUaZBg-dvl",
+    "id": "jid1-5Fs7iTLscUaZBg-dvl@jetpack",
     "description": "Disable styles targeting :visited links.",
     "author": "Chris Antaki",
     "license": "MPL 2.0",
-    "version": "1.0.5",
-    "icon": "data/safe-48.png",
+    "version": "1.0.6",
+    "icon": "icon.png",
     "permissions": {
         "private-browsing": true
     },
+    "main": "lib/main.js",
     "devDependencies": {
         "gulp": "^3.8.11",
         "gulp-image-resize": "^0.6.0",
