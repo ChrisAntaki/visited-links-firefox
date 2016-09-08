@@ -5,10 +5,15 @@
     "description": "Disable styles targeting :visited links.",
     "author": "Chris Antaki",
     "license": "MPL 2.0",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "icon": "icon.png",
     "permissions": {
+        "multiprocess": true,
         "private-browsing": true
+    },
+    "engines": {
+        "firefox": ">=38.0a1",
+        "fennec": ">=38.0a1"
     },
     "main": "lib/main.js",
     "devDependencies": {
